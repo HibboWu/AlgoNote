@@ -1,4 +1,4 @@
-package com.hbo;
+package org.example;
 
 /**
  * Hello world!
