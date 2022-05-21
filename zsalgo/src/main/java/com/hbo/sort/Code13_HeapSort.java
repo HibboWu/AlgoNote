@@ -49,6 +49,16 @@ public class Code13_HeapSort {
         arr[i] = arr[i] ^ arr[j];
     }
 
+    public static void swap(int i, int j) {
+        i = i ^ j;
+        j = i ^ j;
+        i = i ^ j;
+    }
+
     public static void main(String[] args) {
+        int i = 0;
+        int j = 0;
+        int[] arr = {0, 0};
+        System.out.println();
     }
 }
